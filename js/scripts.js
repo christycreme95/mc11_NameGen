@@ -54,6 +54,11 @@ let classNames = [
     "Victor Maldonado",
 ];
 let selectedWord = "";
+let myNum = document.getElementById("myNum");
+let submitNum = document.getElementById("submitNum").addEventListener("click", function(e){
+    groupNum();
+});
+
 let displayWord = document.getElementById("displayWord");
 let second=false;
 let newName = document.getElementById("newName");
@@ -114,7 +119,8 @@ function double() {
     };
 };
 
+function groupNum(){
+    alert(myNum.value);
+    // I am going to pull this many people from the list and throw it into a group! Another button press will make that group!
+}
 
-// function carlosCounter(){
-//     if()
-// }
