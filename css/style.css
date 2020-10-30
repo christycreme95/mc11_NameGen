@@ -1,0 +1,32 @@
+/* 
+Christy Eang
+Mini challenge #11 Random Name Generator
+10/29/2020
+Using Javascript & Bootstrap, you will develop a Random Student Name Generator of all the students in the class. 
+
+*/
+.center{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color:lightblue;
+    
+}
+.heading{
+    border: 1px solid black;
+    color: white;
+    background-color: navy;
+    padding: 5vw;
+    text-align: center;
+}
+.end{
+    display: flex;
+    justify-content: end;
+}
+.centerTxt{
+    text-align: center;
+}
+.noPad{
+    padding: 0px;
+}
