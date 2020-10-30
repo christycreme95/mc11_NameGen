@@ -121,6 +121,7 @@ function double() {
 
 function groupNum(){
     alert(myNum.value);
+    myNum.value="";
     // I am going to pull this many people from the list and throw it into a group! Another button press will make that group!
 }
 
