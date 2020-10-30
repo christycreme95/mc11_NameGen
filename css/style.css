@@ -17,8 +17,9 @@ body{
     border: 1px solid black;
     color: white;
     background-color: navy;
-    padding: 5vw;
+    padding: 2vw;
     text-align: center;
+    
 }
 .end{
     display: flex;
@@ -29,4 +30,7 @@ body{
 }
 .noPad{
     padding: 0px;
+}
+.textEnd{
+    text-align: end;
 }

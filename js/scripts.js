@@ -65,7 +65,6 @@ let submitName = document.getElementById("submitName").addEventListener("click",
     if(second==false){
         addingNames();
     };
-    // addingNames();
 });
 
 let carlos = document.getElementById("carlos");
@@ -86,9 +85,9 @@ function ranNameGen() {
         carlos.innerText = "Carlos Counter: " + carlosNum;
         // credits to Mendoza for this idea. I made it happen though
     }
-    else {
+    else{
         displayWord.innerText = selectedWord;
-    }
+    };
 };
 
 function addingNames() {
@@ -100,8 +99,9 @@ function addingNames() {
         classNames.push(newName.value);
         console.log(classNames);
         newName.value = "";
-    }
-}
+    };
+};
+
 function double() {
     // What about if they add the same name?
     // I keep breaking it if i put the addingNames to my if/else statement.   

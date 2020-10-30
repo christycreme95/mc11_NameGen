@@ -26,6 +26,9 @@ Using Javascript & Bootstrap, you will develop a Random Student Name Generator o
   <div class="container-fluid heading center">
     <h1>Christy's Codestack Random Name Generator</h1>
   </div>
+
+
+
   <div class="container">
     <div class="row">
       <div class="col-12 center p-2 centerTxt">
@@ -37,24 +40,27 @@ Using Javascript & Bootstrap, you will develop a Random Student Name Generator o
       <div class="col-12 center mb-2">
         <button type="button" id="randomBtn" class="btn btn-outline-primary">Press For Name!</button>
       </div>
-      <div class="col-3 center">
-        <p id="carlos" class="border"></p>
-
-      </div>
 
       <!-- credits to Mendoza for this idea. I made it happen though -->
+
     </div>
-    <div class="row">
-      <div class="col-4 noPad">
-        <input id="newName" class="form-control mr-sm-2" type="text" placeholder="Enter New Name" aria-label="Go">
-        
+    <div class="row d-flex justify-content-between">
+
+      <div class="col-lg-4 noPad">
+        <div class="input-group mb-3">
+          <input id="newName" type="text" class="form-control" placeholder="Enter New Name Here" aria-label="New name" aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <button id="submitName" class="btn btn-outline-primary" type="button" id="button-addon2">Button</button>
+          </div>
+        </div>
       </div>
-      <div class="col-1 noPad">
-        <button id="submitName" class="btn btn-outline-primary my-2 my-sm-0" type="submit">Add</button>
+
+      <div class="col textEnd">
+        <p id="carlos"></p>
       </div>
     </div>
   </div>
-  </div>
+  
 
   <!-- Optional JavaScript; choose one of the two! -->
 
